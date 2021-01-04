@@ -1,0 +1,123 @@
+﻿{
+    "code": "diggingshovel",
+    "class": "ItemDigger",
+    "creativeinventory": {
+        "general": [
+            "*"
+        ]
+    },
+    "shape": {
+        "base": "item/tool/diggingshovel"
+    },
+    "heldTpHitAnimation": "shoveldig",
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [
+                "copper",
+                "tinbronze",
+                "bismuthbronze",
+                "blackbronze",
+                "iron",
+                "steel"
+            ]
+        }
+    ],
+    "textures": {
+        "wood": {
+            "base": "game:item/tool/material/wood"
+        },
+        "metal": {
+            "base": "game:item/tool/material/{material}"
+        }
+    },
+    "miningspeedbytype": {
+        "*-copper": {
+            "soil": 4,
+            "sand": 4,
+            "gravel": 2.6,
+            "snow": 2.6
+        },
+        "*-tinbronze": {
+            "soil": 5.4,
+            "sand": 5.4,
+            "gravel": 3.6,
+            "snow": 3.6
+        },
+        "*-bismuthbronze": {
+            "soil": 5,
+            "sand": 5,
+            "gravel": 3.2,
+            "snow": 3.2
+        },
+        "*-blackbronze": {
+            "soil": 5.5,
+            "sand": 5.5,
+            "gravel": 3.7,
+            "snow": 3.7
+        },
+        "*-iron": {
+            "soil": 6,
+            "sand": 6,
+            "gravel": 4,
+            "snow": 4
+        },
+        "*-steel": {
+            "soil": 7,
+            "sand": 7,
+            "gravel": 4.4,
+            "snow": 4.4
+        }
+    },
+    "tool": "shovel",
+    "tooltierbytype": {
+        "*-copper": 2,
+        "*-tinbronze": 3,
+        "*-bismuthbronze": 3,
+        "*-blackbronze": 3,
+        "*-iron": 4,
+        "*-steel": 5
+    },
+    "durabilitybytype": {
+        "*-copper": 450,
+        "*-tinbronze": 650,
+        "*-bismuthbronze": 700,
+        "*-blackbronze": 700,
+        "*-iron": 1300,
+        "*-steel": 1700
+    },
+    "damagedby": ["blockbreaking", "attacking"],
+    "attackpowerbytype": {
+        "*-copper": 1.5,
+        "*-bismuthbronze": 1.75,
+        "*-tinbronze": 2,
+        "*-blackbronze": 2.25,
+        "*-iron": 2.5,
+        "*-steel": 2.75
+    },
+    guiTransform: {
+        translation: { x: -6, y: -7, z: 0 },
+        rotation: { x: 60, y: 50, z: 44 },
+        origin: { x: 0, y: 0, z: 0 },
+        scale: 0.78
+    },
+    "fpHandTransform": {
+        "translation": { "x": -0.2, "y": -0.7, "z": 1 },
+        "rotation": { "x": 174, "y": 0, "z": 70 },
+        "origin": { "x": 2, "y": 0, "z": 0 },
+        "scale": 2.41
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 3.4
+    },
+    
+    tpHandTransform: {
+        translation: { x: -1.6, y: 0.5, z: -0.1 },
+        rotation: { x: 78, y: 180, z: -10 },
+        origin: { x: 0, y: 0, z: 0 },
+        scale: 0.5
+    }
+}

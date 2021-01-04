@@ -1,0 +1,29 @@
+﻿{
+  "item-digginghammer-copper": "Copper digging hammer",
+  "item-digginghammer-tinbronze": "Tin bronze digging hammer",
+  "item-digginghammer-bismuthbronze": "Bismuth bronze digging hammer",
+  "item-digginghammer-blackbronze": "Black bronze digging hammer",
+  "item-digginghammer-iron": "Iron digging hammer",
+  "item-digginghammer-steel": "Steel digging hammer",
+  
+  "item-digginghammerhead-iron": "Iron digging hammer head",
+  "item-digginghammerhead-copper": "Copper digging hammer head",
+  "item-digginghammerhead-tinbronze": "Tin bronze digging hammer head",
+  "item-digginghammerhead-bismuthbronze": "Bismuth bronze digging hammer head",
+  "item-digginghammerhead-blackbronze": "Black bronze digging hammer head",
+  "item-digginghammerhead-steel": "Steel digging hammer",
+  
+  "item-diggingshovel-copper": "Copper big shovel",
+  "item-diggingshovel-tinbronze": "Tin bronze big shovel",
+  "item-diggingshovel-bismuthbronze": "Bismuth bronze big shovel",
+  "item-diggingshovel-blackbronze": "Black bronze big shovel",
+  "item-diggingshovel-iron": "Iron big shovel",
+  "item-diggingshovel-steel": "Steel big shovel",
+  
+  "item-diggingshovelhead-iron": "Iron big shovel head",
+  "item-diggingshovelhead-steel": "Steel big shovel head",
+  "item-diggingshovelhead-copper": "Copper big shovel head",
+  "item-diggingshovelhead-tinbronze": "Tin bronze big shovel head",
+  "item-diggingshovelhead-bismuthbronze": "Bismuth bronze big shovel head",
+  "item-diggingshovelhead-blackbronze": "Black bronze big shovel head"
+}

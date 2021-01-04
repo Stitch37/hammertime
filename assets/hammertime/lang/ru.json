@@ -1,0 +1,30 @@
+﻿{
+  "item-digginghammer-copper": "Медный молот для копания",
+  "item-digginghammer-tinbronze": "Молот для копания из оловянной бронзы",
+  "item-digginghammer-bismuthbronze": "Молот для копания из висмутовой бронзы",
+  "item-digginghammer-blackbronze": "Молот для копания из черной бронзы",
+  "item-digginghammer-iron": "Железный молот для копания",
+  "item-digginghammer-steel": "Стальной молот для копания",
+  
+  "item-digginghammerhead-copper": "Медная головка молота для копания",
+  "item-digginghammerhead-tinbronze": "Головка молота для копания из оловянной бронзы",
+  "item-digginghammerhead-bismuthbronze": "Головка молота для копания из висмутовой бронзы",
+  "item-digginghammerhead-blackbronze": "Головка молота для копания из черной бронзы",
+  "item-digginghammerhead-iron": "Железная головка молота для копания",
+  "item-digginghammerhead-steel": "Стальная головка молота для копания",
+  
+  
+  "item-diggingshovel-copper": "Медная большая лопата",
+  "item-diggingshovel-tinbronze": "Большая лопата из оловянной бронзы",
+  "item-diggingshovel-bismuthbronze": "Большая лопата из висмутовой бронзы",
+  "item-diggingshovel-blackbronze": "Большая лопата из черной бронзы",
+  "item-diggingshovel-iron": "Железная большая лопата",
+  "item-diggingshovel-steel": "Стальная большая лопата",
+  
+  "item-diggingshovelhead-iron": "Железная головка большой лопаты",
+  "item-diggingshovelhead-steel": "Стальная головка большой лопаты",
+  "item-diggingshovelhead-copper": "Медная головка большой лопаты",
+  "item-diggingshovelhead-tinbronze": "Головка большой лопаты из оловянной бронзы",
+  "item-diggingshovelhead-bismuthbronze": "Головка большой лопаты из висмутовой бронзы",
+  "item-diggingshovelhead-blackbronze": "Головка большой лопаты из черной бронзы"
+}

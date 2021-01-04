@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "hammertime",
+  "name": "Hammer Time",
+  "author": "Stitch37",
+  "description": "Metal digging instruments",
+  "version": "0.0.2",
+  "dependency": {
+    "game": "1.12.14"
+  }
+}

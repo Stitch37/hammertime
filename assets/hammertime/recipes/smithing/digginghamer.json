@@ -1,0 +1,42 @@
+﻿{
+    "name": "Digging hammer",
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+            "copper",
+            "tinbronze",
+            "bismuthbronze",
+            "blackbronze",
+            "iron"
+        ]
+    },
+    "pattern": [
+        [
+            "#########",
+            "#########",
+            "#########",
+            "#########",
+            "#########"
+        ],
+        [
+            "#########",
+            "#########",
+            "####_####",
+            "#########",
+            "#########"
+        ],
+        [
+            "_________",
+            "___###___",
+            "___#_#___",
+            "___###___",
+            "_________"
+        ]
+    ],
+    "output": {
+        "type": "item",
+        "code": "digginghammerhead-{metal}"
+    }
+}

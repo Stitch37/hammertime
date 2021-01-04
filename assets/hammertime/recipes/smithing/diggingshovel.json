@@ -1,0 +1,39 @@
+﻿{
+    "name": "Digging shovel",
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+            "copper",
+            "tinbronze",
+            "bismuthbronze",
+            "blackbronze",
+            "iron"
+        ]
+    },
+    "pattern": [
+        [
+            "_#####_",
+            "#######",
+            "#######",
+            "#######",
+            "#######",
+            "#######",
+            "#######"
+        ],
+        [
+            "_______",
+            "_______",
+            "_______",
+            "_______",
+            "___#___",
+            "__###__",
+            "__###__"
+        ]
+    ],
+    "output": {
+        "type": "item",
+        "code": "diggingshovelhead-{metal}"
+    }
+}
