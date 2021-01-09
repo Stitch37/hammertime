@@ -4,8 +4,8 @@
   "name": "Hammer Time",
   "author": "Stitch37",
   "description": "Metal digging instruments",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependency": {
-    "game": "1.12.14"
+    "game": "1.14.5"
   }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-using Vintagestory.API.Common;
+﻿using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.MathTools;
 
@@ -12,10 +6,11 @@ namespace hammertime.items
 {
     public class DiggerItem : Item
     {
+        
         public override bool OnBlockBrokenWith(IWorldAccessor world, Entity byEntity, ItemSlot itemslot,
-            BlockSelection blockSel)
+            BlockSelection blockSel, float dropQuantityMultiplier = 1f)
         {
-            if (base.OnBlockBrokenWith(world, byEntity, itemslot, blockSel))
+            if (base.OnBlockBrokenWith(world, byEntity, itemslot, blockSel, dropQuantityMultiplier))
             {
                 if (byEntity is EntityPlayer)
                 {
@@ -48,7 +43,7 @@ namespace hammertime.items
             var centerBlock = world.BlockAccessor.GetBlock(centerBlockPos);
             var itemStack = new ItemStack(this);
             Block tempBlock;
-            var miningTimeMainBlock = GetMiningSpeed(itemStack, centerBlock);
+            var miningTimeMainBlock = GetMiningSpeed(itemStack, centerBlock, player);
             float miningTime;
             var tempPos = new BlockPos();
             for (int x = min.X; x <= max.X; x++)
@@ -64,7 +59,7 @@ namespace hammertime.items
                         else
                         {
                             //Check if we can mine this block
-                            miningTime = tempBlock.GetMiningSpeed(itemStack, tempBlock);
+                            miningTime = tempBlock.GetMiningSpeed(itemStack, tempBlock, player);
                             if (this.ToolTier >= tempBlock.RequiredMiningTier //Нужный уровень инструмента
                                 && miningTimeMainBlock * 1.5f >= miningTime //Время добычи не сильно отличается
                                 && MiningSpeed.ContainsKey(tempBlock.BlockMaterial)) //И материал  металл или камень
